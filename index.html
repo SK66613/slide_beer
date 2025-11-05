@@ -53,6 +53,16 @@
   /* Reduce potential scroll jank for interactive areas */
   body * { touch-action: manipulation; }
 </style>
+<style>
+  <div class="only-desktop">…HTML5-версия…</div>
+<video class="only-mobile" playsinline controls preload="metadata" src="./Sales-Genius.mp4"></video>
+
+<style>
+  .only-mobile{display:none}
+  @media (max-width:768px){ .only-desktop{display:none} .only-mobile{display:block} }
+</style>
+
+    
 
 </head>
   <body data-c="" style="
